@@ -1,0 +1,31 @@
+/* Fuentes*/
+$fontmain:'antiqua', sans-serif;
+$fontSecondary:'Roboto', sans-serif;
+$fontCursive:'Pacifico', sans-serif;
+
+
+/* Media queries*/
+$movil: 480px;
+$tablet: 768px;
+$desktop: 1024px;
+
+
+/* Colores*/
+
+$primary: #780E0E;
+$secondary: #C41818;
+$black: #000;
+$white: #FFF;
+$grey-light: #ECEEEF;
+$brown-light: #C46E18;
+$brow: #78430E;
+$grey: #878787;
+$grey-deep: #787878;
+
+
+/* Unidades */
+
+$separation: 5rem;
+
+
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
