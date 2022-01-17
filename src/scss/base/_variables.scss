@@ -1,7 +1,7 @@
 /* Fuentes*/
-$fontmain:'antiqua', sans-serif;
-$fontSecondary:'Roboto', sans-serif;
-$fontCursive:'Pacifico', sans-serif;
+$fontmain:'Book Antiqua', arial;
+$fontSecondary:'Book Antiqua', arial;
+$fontCursive:'roboto', sans-serif;
 
 
 /* Media queries*/
@@ -27,5 +27,8 @@ $grey-deep: #787878;
 
 $separation: 5rem;
 
+
+// otros
+$enable-negative-margins: true;
 
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";

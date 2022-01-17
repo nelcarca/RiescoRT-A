@@ -4,10 +4,42 @@
 
 .container-begin {
     padding: 5rem 2rem;
-    background-color: v.$white;
+    background-color: v.$primary;
+    color: v.$white;
     @include m.tablet{
         padding: 10rem;
-        margin-top: -10rem;
+        margin-top: -13rem;
         position: relative;
     }
+    .conoce {
+        margin-top: 0;
+        .fs-4{
+            color: v.$white;
+        }
+        .llamado {
+            color: v.$white;
+        }
+    }
+}
+.texto-inicio {
+    padding-top: 1rem;
+    h1 {
+        background-color: burlywood;
+        height: 5rem;
+        padding-top: 1rem;
+    }
+    td {
+        background-color: cadetblue;
+    }
+}
+
+.footerMD {
+    background-color: v.$primary;
+    .textofooter {
+        color: v.$white;
+        p {
+            color: v.$white;
+        }
+    }
+    color: v.$white;
 }
