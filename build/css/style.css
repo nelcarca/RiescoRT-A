@@ -12111,8 +12111,21 @@ bg-primary {
   font-variant: small-caps;
 }
 
-.header-begin {
-  background-image: url(../../../img/ftoequipo.png);
+.header-begin .video-container {
+  position: absolute;
+  z-index: -100;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 56.25vw;
+  overflow: hidden;
+}
+
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
 }
 
 .nav-barra {
